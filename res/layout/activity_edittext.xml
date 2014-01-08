@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res/com.nichtemna.Views"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+    <include layout="@layout/line_yellow_top"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center_horizontal">
+
+        <TextView style="@style/style_textView_main"
+                  android:text="@string/birthday_picker"/>
+
+        <com.nichtemna.views.ui.edittexts.BirthDayPickerEditText
+                style="@style/style_edittext_main"
+                android:cursorVisible="false"/>
+
+        <TextView style="@style/style_textView_main"
+                  android:text="@string/edittext_with_prefix"/>
+
+        <com.nichtemna.views.ui.edittexts.PrefixEditText
+                style="@style/style_edittext_main"
+                custom:prefix="@string/some_prefix"/>
+
+        <TextView style="@style/style_textView_main"
+                  android:text="@string/date_time_picker"/>
+
+        <com.nichtemna.views.ui.edittexts.DateTimeTextPickerEditText
+                style="@style/style_edittext_main"/>
+
+        <TextView style="@style/style_textView_main"
+                  android:text="@string/check_edittext_numbers"/>
+
+        <com.nichtemna.views.ui.edittexts.CheckEditText
+                custom:regex="@string/regex_number"
+                android:numeric="integer"
+                style="@style/style_edittext_main"/>
+
+        <TextView style="@style/style_textView_main"
+                  android:text="@string/check_edittext_phone"/>
+
+        <com.nichtemna.views.ui.edittexts.CheckWithPrefixEditText
+                custom:regex="@string/regex_phone_number"
+                custom:prefix_check="@string/phone_prefix"
+                android:numeric="integer"
+                android:maxLength="12"
+                style="@style/style_edittext_main"/>
+    </LinearLayout>
+
+    <include layout="@layout/line_yellow_bottom"/>
+</RelativeLayout>

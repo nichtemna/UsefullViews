@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_button_yellow_main">
+        <item name="android:layout_width">@dimen/main_width</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">@drawable/selector_button_orange</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="style_edittext_main">
+        <item name="android:layout_width">@dimen/main_width</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@color/color_main_grey_light</item>
+        <item name="android:layout_margin">10dip</item>
+        <item name="android:padding">5dip</item>
+    </style>
+
+    <style name="style_textView_main">
+        <item name="android:layout_width">@dimen/main_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_main_orange</item>
+        <item name="android:layout_margin">10dip</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

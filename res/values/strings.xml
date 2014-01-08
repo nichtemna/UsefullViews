@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Views</string>
+    <string name="edittexts">EDITTEXTS</string>
+    <string name="male_capital">MALE</string>
+    <string name="female_capital">FEMALE</string>
+    <string name="birthday_picker">BIRTHDAY PICKER</string>
+    <string name="edittext_with_prefix">EDITTEXT WITH PREFIX</string>
+    <string name="empty_string"/>
+    <string name="some_prefix">#hash_</string>
+    <string name="date_time_picker">EDITTEXT WITH DATE AND TIME PICKER</string>
+    <string name="check_edittext_numbers">CHECKEDITTEXT FOR NUMBERS</string>
+    <string name="check_edittext_phone">CHECKEDITTEXT FOR PHONE\n +89xxxxxxxxx</string>
+    <string name="regex_phone_number">^([\\+]?8)9\\d{9}$</string>
+    <string name="regex_number">[0-9]+</string>
+    <string name="phone_prefix">+8</string>
+    <string name="regex_all">^[a-zA-Z0-9]+$</string>
+</resources>
