@@ -15,4 +15,5 @@
     <string name="regex_number">[0-9]+</string>
     <string name="phone_prefix">+8</string>
     <string name="regex_all">^[a-zA-Z0-9]+$</string>
+    <string name="enter_pincode_edittext">ENTER PINCODE</string>
 </resources>

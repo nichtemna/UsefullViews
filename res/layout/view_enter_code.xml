@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="@dimen/main_width"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal">
+
+    <com.nichtemna.views.ui.edittexts.EditTextForPassword
+            android:id="@+id/viewEnterCodeEditText1"
+            style="@style/style_code_edittext"/>
+
+    <com.nichtemna.views.ui.edittexts.EditTextForPassword
+            android:id="@+id/viewEnterCodeEditText2"
+            style="@style/style_code_edittext"/>
+
+    <com.nichtemna.views.ui.edittexts.EditTextForPassword
+            android:id="@+id/viewEnterCodeEditText3"
+            style="@style/style_code_edittext"/>
+
+    <com.nichtemna.views.ui.edittexts.EditTextForPassword
+            android:id="@+id/viewEnterCodeEditText4"
+            style="@style/style_code_edittext"/>
+
+</LinearLayout>
